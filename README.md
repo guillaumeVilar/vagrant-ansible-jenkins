@@ -1,14 +1,13 @@
 # vagrant-ansible-jenkins
 Deployment of Jenkins on a VirtualBox Ubuntu VM using Vagrant and an Ansible playbook. 
 
-Example of a vagrant VM deployment (with enabling root ssh and password), and 
-ansible playbook associated in order to install Jenkins on the VM.
+This is an example of a Vagrant VM deployment (with enabling root ssh and password), and 
+ansible playbook in order to install Jenkins on a VM.
+This can be modify in order to run some Jenkins labs locally or be extended to test other distribution / playbooks. 
 
-Can be used in order to do Jenkins tests locally or be extended to test other distribution / playbooks. 
-
-This example is based on the example Jenkins CI of the book 'Ansible For DevOps'. I modified the example to: 
-* make it work on MacOS, and 
-* dissociated Vagrant provisioning and Ansible playbook.
+This example is based on the example `Jenkins CI` of the book `Ansible For DevOps` by Jeff Geerling. I modified the example to: 
+* make it work on MacOS
+* dissociate Vagrant provisioning and Ansible playbook, so the ansible-playbook can be as close as possible as production playbooks. 
 
 Tested with the following versions: 
 * Ansible 2.10.5

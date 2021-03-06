@@ -14,3 +14,12 @@
     - geerlingguy.ansible 
     - geerlingguy.java
     - geerlingguy.jenkins
+
+  tasks:
+    - name: Copy file main.yml to /opt/ansible-for-devops/ directory on the VM
+      ansible.builtin.copy: 
+        src: main.yml
+        dest: /opt/ansible-for-devops/
+        owner: root
+        group: root
+      tags: copy-file      

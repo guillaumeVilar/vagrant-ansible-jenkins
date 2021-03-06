@@ -33,3 +33,4 @@ We should have the Jenkins GUI available when visiting http://192.168.76.76:8080
 
 ![Screenshot](screenshot.png)
 
+We can then log in using the username/password: `admin/admin`

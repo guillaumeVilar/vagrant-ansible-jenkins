@@ -7,6 +7,7 @@ This can be modify in order to run some Jenkins labs locally or be extended to t
 
 This example is based on the example `Jenkins CI` of the book `Ansible For DevOps` by Jeff Geerling. I modified the example to: 
 * make it work on MacOS
+* Enable root login via SSH (`root/root`)
 * dissociate Vagrant provisioning and Ansible playbook, so the ansible-playbook can be as close as possible as production playbooks. 
 
 Tested with the following versions: 
